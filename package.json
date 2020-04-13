@@ -1,0 +1,28 @@
+{
+  "name": "getcomic",
+  "version": "1.0.0",
+  "description": "An electronjs app for downloading comics from readcomiconline",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "prod": "npm run clean & webpack -p",
+    "start": "electron dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "getcomic-electron-app"
+  },
+  "author": "VinitraMk",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "fs": "0.0.1-security",
+    "url": "^0.11.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
